@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+    <div id="wrapper">
+        <section id="banner" class="major" style="height:100vh;">
+            <div class="inner">
+                <header class="major">
+                    <h1>{{ page.landing-title }}</h1>
+                </header>
+                <div class="content">
+                    <p style="text-transform: uppercase;">{{ site.description }}</p>
+                    <ul class="actions">
+                        <li><a href="#about" class="button next scrolly">MORE ABOUT ME</a></li>
+                    </ul>
+                </div>
+                {% include sociallinks.html %}
+            </div>
+        </section>
+
+        <div id="main">
+            <section id="about">
+                <div class="inner">
+                    <header class="major">
+                        <h2>About me</h2>
+                    </header>
+                    <p>{{ content }}</p>
+                    <ul class="actions">
+                        <li><a href="https://medium.com/@zonilyjame" class="button next">VISIT BLOG</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="affiliations" class="tiles">
+                <article>
+                    <span class="image">
+                        <img src="https://miro.medium.com/max/7008/1*1DIsIDhrKJ2698uc9FXEDg.jpeg" alt="" />
+                    </span>
+                    <header class="major">
+                        <h3><a href="https://medium.com/@zonilyjame/swift-4-generics-getting-rid-of-the-void-parameters-accece3ad649" class="link">Swift Generics: getting rid of the Void parameter "()"</a></h3>
+                        <p>Migrating Swift code from one version to the next can will always be a part of an iOS developer life, and with every iteration there are always new rules to follow.</p>
+                    </header>
+                </article>
+                <article>
+                    <span class="image">
+                        <img src="https://miro.medium.com/max/8064/1*0zQdjy3yTXdcH_ST9BJAjQ.jpeg" alt="" />
+                    </span>
+                    <header class="major">
+                        <h3><a href="https://medium.com/@zonilyjame/reusable-no-more-string-typed-instantiations-on-ios-development-aa1a4f59201c" class="link">Reusable: No more String-typed instantiations on iOS Development</a></h3>
+                        <p>If your app has crashed because it couldn’t instantiate a nib with name foo, or because it couldn’t dequeue a cell named bar, try this simple framework called <a href="https://github.com/AliSoftware/Reusable">Reusable</a>.</p>
+                    </header>
+                </article>
+                <article>
+                    <span class="image">
+                        <img src="https://miro.medium.com/max/10944/1*jD9ejR1cF4cNw4dc6Vg0Nw.jpeg" alt="" />
+                    </span>
+                    <header class="major">
+                        <h3><a href="https://medium.com/@zonilyjame/a-protocol-oriented-analytics-layer-574e4967fe50" class="link">A Protocol Oriented Analytics Layer</a></h3>
+                        <p>This article is roughly based on John Sundell’s article on Building an enum-based analytics system and Fernando Martín Ortiz’s article on Architecting an Analytics Layer. Both of these articles are a must read before reading mine.</p>
+                    </header>
+                </article>
+                <!-- <article>
+                </article> -->
+            </section>
+            <!-- <section id="affiliations" class="tiles">
+                <div class="inner">
+                    <header class="major">
+                        <h2>Articles</h2>
+                    </header>
+                    <div class="row">
+                        <div class="4u 12u$(medium)">
+                            <h3><a href="https://medium.com/@zonilyjame/a-protocol-oriented-analytics-layer-574e4967fe50">A Protocol Oriented Analytics Layer</a></h3>
+                            <p>This article is roughly based on John Sundell’s article on Building an enum-based analytics system and Fernando Martín Ortiz’s article on Architecting an Analytics Layer. Both of these articles are a must read before reading mine.</p>
+                            <ul class="actions">
+                                <li><a href="https://medium.com/@zonilyjame/a-protocol-oriented-analytics-layer-574e4967fe50" class="button next">READ MORE</a></li>
+                            </ul>
+                        </div>
+                        <div class="4u 12u$(medium)">
+                            <h3><a href="https://medium.com/@zonilyjame/swift-4-generics-getting-rid-of-the-void-parameters-accece3ad649">Swift Generics: getting rid of the Void parameter "()"</a></h3>
+                            <p>Migrating Swift code from one version to the next can will always be a part of an iOS developer life, and with every iteration there are always new rules to follow.</p>
+                            <ul class="actions">
+                                <li><a href="https://medium.com/@zonilyjame/swift-4-generics-getting-rid-of-the-void-parameters-accece3ad649" class="button next">READ MORE</a></li>
+                            </ul>
+                        </div>
+                        <div class="4u 12u$(medium)">
+                            <h3><a href="https://medium.com/@zonilyjame/reusable-no-more-string-typed-instantiations-on-ios-development-aa1a4f59201c">Reusable: No more String-typed instantiations on iOS Development</a></h3>
+                            <p>If your app has crashed because it couldn’t instantiate a nib with name foo, or because it couldn’t dequeue a cell named bar, try this simple framework called <a href="https://github.com/AliSoftware/Reusable">Reusable</a>.</p>
+                            <ul class="actions">
+                                <li><a href="https://medium.com/@zonilyjame/reusable-no-more-string-typed-instantiations-on-ios-development-aa1a4f59201c" class="button next">READ MORE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+        </div>
+        {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+</body>
+
+</html>

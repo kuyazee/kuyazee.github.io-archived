@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+	<div id="wrapper">
+		<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+			<a href="{{ "" | absolute_url }}/" class="logo"><strong>Home</strong> <span></span></a>
+		</header>
+		<div id="main" class="alt">
+			<section id="one" style="height:70vh;">
+				<div class="inner">
+					<header class="major">
+						<h1>{{ page.title }}</h1>
+					</header>
+					{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}"
+							alt="" /></span>{% endif %}
+					<p>{{ content }}</p>
+				</div>
+			</section>
+		</div>
+		{% include mainfooter.html %}
+	</div>
+	{% include scripts.html %}
+</body>
+</html>
