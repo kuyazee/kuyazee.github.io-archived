@@ -1,32 +1,32 @@
 # site settings
 title: Zonily Jame Pesquera
-subtitle: Software Developer
+subtitle: Mobile Software Developer 
 email: zonilyjame@gmail.com
-description: Software Developer
+description: Mobile Software Developer 
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Zonily Jame Pesquera
-# street_address: 
-# city: Taguig
-state: Metro Manila
-# zip_code: 1634
-country: Philippines
-#phone: 
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 3
+tiles-count: 4
 
 # social settings
 500px_url:
 facebook_url: https://www.facebook.com/eezayuk
 github_url: https://github.com/kuyazee
-#gitlab_url: 
-#googleplus_url: 
+gitlab_url: 
+googleplus_url: 
 instagram_url: https://instagram.com/kuyazee
 linkedin_url: https://www.linkedin.com/in/zjgpesquera
-#pinterest_url:
-#slack_url:
+pinterest_url:
+slack_url:
 twitter_url: https://twitter.com/kuyazee
 
 # build settings
