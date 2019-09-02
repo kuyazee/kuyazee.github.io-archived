@@ -1,3 +1,7 @@
+self.addEventListener('install', function(event) {
+    // Perform install steps
+  });
+
 // set names for both precache & runtime cache
 workbox.core.setCacheNameDetails({
     prefix: 'home',
@@ -21,7 +25,7 @@ workbox.routing.registerRoute(
 
 // use `cacheFirst` strategy for images
 workbox.routing.registerRoute(
-    /assets\/(img|icons)/,
+    /assets\/images\/(img|icons)/,
     workbox.strategies.cacheFirst()
 );
 
