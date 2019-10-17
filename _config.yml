@@ -19,15 +19,15 @@ tiles-count: 4
 
 # social settings
 500px_url:
-facebook_url: https://www.facebook.com/eezayuk
+facebook_url: https://www.facebook.com/zonilyjame
 github_url: https://github.com/kuyazee
 gitlab_url: 
 googleplus_url: 
 instagram_url: https://instagram.com/kuyazee
-linkedin_url: https://www.linkedin.com/in/zjgpesquera
+linkedin_url: https://www.linkedin.com/in/zonilyjame
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/kuyazee
+twitter_url: https://twitter.com/zonilyjame
 
 # build settings
 markdown: kramdown
